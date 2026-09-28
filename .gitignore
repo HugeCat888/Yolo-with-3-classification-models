@@ -1,0 +1,43 @@
+# Environments
+venv/
+env/
+.env
+.venv
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Datasets and Images
+data/
+!data/**/.gitkeep
+
+# Weights and Models
+# weights/
+# *.pt
+# *.keras
+# *.h5
+# *.onnx
+
+# Training runs and logs
+# runs/
+# evaluation/reports/*.png
+# evaluation/reports/*.txt
+# !evaluation/reports/.gitkeep
+
+# Streamlit / Secrets
+.streamlit/secrets.toml
+secrets.yaml
+credentials.json
+
+# Ignored Docs
+# README.md
