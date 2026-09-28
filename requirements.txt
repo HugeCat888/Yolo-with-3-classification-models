@@ -12,7 +12,7 @@ ultralytics==8.4.164
 streamlit==1.64.0
 
 # Image Processing
-opencv-python-headless==4.10.0.84
+
 pillow>=10.0
 
 # Data
